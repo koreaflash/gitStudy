@@ -45,5 +45,12 @@
 - git stash list
 - git stash pop
 
+---
+
+- git log --branches
+- git cherry-pick 3c10d9987385e7f435d5019bdc7bb23c63379848
+- git rebase master(브랜치 부모)
+
+
 
 
