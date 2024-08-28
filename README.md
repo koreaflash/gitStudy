@@ -21,4 +21,8 @@
 - git checkout dev2
 - git branch -D dev2
 - git push origin :dev3
+-----------------------------------------------------------------------------
+- git tag -l
+- git tag -a v0.0.1
+- git push origin v0.0.1
 
