@@ -24,13 +24,26 @@
 - git branch dev2
 - git checkout dev2
 - git branch -D dev2
-- git push origin :dev3
+- git push origin :dev2
 
 ---
 
 - git tag -l
 - git tag -a v0.0.1
 - git push origin v0.0.1
+- git tag -d v0.0.1
+- git push origin :v0.0.1
 
-Master Branch
-데브2 브랜치에서 readme.md 파일 수정
+---
+
+- git merge dev2
+- git commit --amend
+  
+---
+
+- git stash save
+- git stash list
+- git stash pop
+
+
+
